@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компоненты24</title>
+
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/ui.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="header__nav">
+                <a href="admin.html">Панель</a>
+                <a href="admin-orders.html">Заказы</a>
+                <a href="admin-blog.html">Блог</a>
+                <a href="admin-categorytype.html">Категории и типы</a>
+                <a href="admin-questions.html">Вопросы клиентов</a>
+                <a href="admin-product.html">Товар</a>
+                <a href="logout.html">Выйти</a>
+            </nav>
+        </header>
+        <main>
+            <section class="admin__sec admin_orders__sec">
+                <div class="container">
+                    <h2 class="title__main">Блог <button class="btn" data-popup="add_blog_admin">Добавить</button></h2>
+                    <article>Эта страница предназначена для управления статьями блога.Здесь вы можете создавать,
+                        редактировать и удалять статьи, делясь с нашими клиентами актуальными новостями и советами.
+                        Помните, что качественный контент помогает укреплять доверие клиентов и привлекать новую
+                        аудиторию. Давайте вместе сделаем наш блог источником вдохновения и информации!</article>
+                    <ul class="admin__list">
+                        <li class="head">
+                            <p>Наименование</p>
+                            <p>Превью</p>
+                            <p>Текст</p>
+                            <p>Изображение</p>
+                            <p></p>
+                        </li>
+                        <li>
+                            <p class="title__blog">Увеличение производства солнечных панелей</p>
+                            <p class="text_prev__blog">Из-за растущего спроса на возобновляемые источники энергии, производители солнечных
+                                панелей сообщили об увеличении объемов производства. Внедрение новых технологий, таких
+                                как ...</p>
+                            <p class="text__blog">Увеличение производства солнечных панелей в 2025 году связано с продолжающимся ростом
+                                спроса на возобновляемые источники энергии. Многие страны активно переходят к реализации
+                                программ "зеленой энергетики", что стимулирует производителей солнечных панелей
+                                увеличивать объемы производства. Одной из главных причин повышения эффективности
+                                солнечных панелей является внедрение современных технологий, таких как перовскитные
+                                солнечные элементы. Эти материалы отличаются высокой эффективностью преобразования
+                                солнечного ...</p>
+                            <p class="image_link__blog">sun.png</p>
+                            <p>
+                                <button class="del"><img src="assets/media/icons/trash.svg" alt="del"></button>
+                                <button class="update"><img src="assets/media/icons/edit.svg" alt="edit"></button>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

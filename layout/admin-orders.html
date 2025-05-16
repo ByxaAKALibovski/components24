@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компоненты24</title>
+
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/ui.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="header__nav">
+                <a href="admin.html">Панель</a>
+                <a href="admin-orders.html">Заказы</a>
+                <a href="admin-blog.html">Блог</a>
+                <a href="admin-categorytype.html">Категории и типы</a>
+                <a href="admin-questions.html">Вопросы клиентов</a>
+                <a href="admin-product.html">Товар</a>
+                <a href="logout.html">Выйти</a>
+            </nav>
+        </header>
+        <main>
+            <section class="admin__sec admin_orders__sec">
+                <div class="container">
+                    <h2 class="title__main">Заказы</h2>
+                    <article>Здесь вы можете просматривать все поступившие заказы, обновлять их статусы и обрабатывать
+                        запросы клиентов. Важно следить за каждым заказом и обеспечивать быструю реакцию на вопросы
+                        пользователей. Ваше внимание к деталям и оперативность помогут нам гарантировать высокий уровень
+                        обслуживания и удовлетворенность клиентов!</article>
+                    <ul class="admin__list">
+                        <li class="head">
+                            <p>№</p>
+                            <p>Статус</p>
+                            <p>Дата</p>
+                            <p>Покупатель</p>
+                            <p>Адрес</p>
+                            <p>Доставка</p>
+                            <p>Оплата</p>
+                            <p>Кол-во товаров</p>
+                            <p>Итого</p>
+                        </li>
+                        <li>
+                            <p class="number__order">#1001</p>
+                            <p class="status__order">
+                                <select name="status_order" id="status_order">
+                                    <option value="1">В сборке</option>
+                                    <option value="2">Доставлен</option>
+                                    <option value="3">Отменен</option>
+                                </select>
+                            </p>
+                            <p class="date__order">04.03.2025</p>
+                            <p class="info__user">
+                                Куш Евгений Геннадьевич<br>
+                                jeka23@mail.ru<br>
+                                89273589422
+                            </p>
+                            <p class="address__order">г. Пенза, Пушкина 137</p>
+                            <p class="delivery">Самовывоз</p>
+                            <p class="payment">Наличными</p>
+                            <p class="total_count__product">14</p>
+                            <p class="total__price">1 204</p>
+                            <div class="product_order__container">
+                                <div class="column">
+                                    <div class="row">
+                                        <ul class="product_order__list">
+                                            <li class="head">
+                                                <p>Товар</p>
+                                                <p>Кол-во</p>
+                                                <p>Цена</p>
+                                            </li>
+                                            <li>
+                                                <p>Микросхема, 8бит MCU, Flash, PIC1620 МГц, 7 КБ, 256 Байт</p>
+                                                <p>3</p>
+                                                <p>1 290</p>
+                                            </li>
+                                            <li>
+                                                <p>IC: SRAM memory; 32kx8bit; 3.3V; 10ns; TSOP28; parallel</p>
+                                                <p>6</p>
+                                                <p>1 740</p>
+                                            </li>
+                                        </ul>
+                                        <div class="comment__oreder">
+                                            <h4>Комментарий к заказу</h4>
+                                            <p class="comment__body">
+                                                -
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="total__price">
+                                        <p>Итого: </p>
+                                        <p class="total__price_value">3 030</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

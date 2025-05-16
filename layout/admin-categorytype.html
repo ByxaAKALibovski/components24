@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компоненты24</title>
+
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/ui.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="header__nav">
+                <a href="admin.html">Панель</a>
+                <a href="admin-orders.html">Заказы</a>
+                <a href="admin-blog.html">Блог</a>
+                <a href="admin-categorytype.html">Категории и типы</a>
+                <a href="admin-questions.html">Вопросы клиентов</a>
+                <a href="admin-product.html">Товар</a>
+                <a href="logout.html">Выйти</a>
+            </nav>
+        </header>
+        <main>
+            <section class="admin__sec admin_categorytype__sec">
+                <div class="container">
+                    <h2 class="title__main">Категории и типы <button class="btn"
+                            data-popup="add_category_admin">Добавить категорию</button><button class="btn"
+                            data-popup="add_type_admin">Добавить тип</button></h2>
+                    <article>Здесь вы можете добавлять новые категории, а также управлять существующими записями.
+                        Убедитесь, что каждая позиция имеет подробное описание и качественные изображения, чтобы клиенты
+                        могли легко находить то, что им нужно. Наша цель — предоставить лучший выбор и обслуживание, и
+                        вы играете в этом ключевую роль!</article>
+                    <div class="row">
+                        <ul class="admin__list category__list">
+                            <li class="head">
+                                <p>Наименование</p>
+                                <p>Текст</p>
+                                <p>Изображение</p>
+                                <p></p>
+                            </li>
+                            <li>
+                                <p class="title__category">Микросхемы</p>
+                                <p class="text__category">Микросхемы — это устройства (электронные схемы) заключенные в
+                                    небольшой специализированный корпус, могут обладать сколь угодно сложным
+                                    функционалом вплоть до целого микрокомпьютера. Купить ...</p>
+                                <p class="image_link__category">Микросхемы.png</p>
+                                <p>
+                                    <button class="del"><img src="assets/media/icons/trash.svg" alt="del"></button>
+                                    <button class="update"><img src="assets/media/icons/edit.svg" alt="edit"></button>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="admin__list">
+                            <li class="head">
+                                <p>Наименование</p>
+                                <p>Текст</p>
+                                <p>Изображение</p>
+                                <p></p>
+                            </li>
+                            <li>
+                                <p class="title__type">Микроконтроллеры</p>
+                                <p class="category__type">Микросхемы</p>
+                                <p>
+                                    <button class="del"><img src="assets/media/icons/trash.svg" alt="del"></button>
+                                    <button class="update"><img src="assets/media/icons/edit.svg" alt="edit"></button>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

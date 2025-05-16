@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компоненты24</title>
+
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/ui.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="header__nav">
+                <a href="admin.html">Панель</a>
+                <a href="admin-orders.html">Заказы</a>
+                <a href="admin-blog.html">Блог</a>
+                <a href="admin-categorytype.html">Категории и типы</a>
+                <a href="admin-questions.html">Вопросы клиентов</a>
+                <a href="admin-product.html">Товар</a>
+                <a href="logout.html">Выйти</a>
+            </nav>
+        </header>
+        <main>
+            <section class="admin__sec admin_orders__sec">
+                <div class="container">
+                    <h2 class="title__main">Товар <button class="btn" data-popup="add_product_admin">Добавить
+                            товар</button></h2>
+                    <article>Здесь вы можете добавлять новые товары и категории, а также управлять существующими
+                        записями. Убедитесь, что каждая позиция имеет подробное описание и качественные изображения,
+                        чтобы клиенты могли легко находить то, что им нужно. Наша цель — предоставить лучший выбор и
+                        обслуживание, и вы играете в этом ключевую роль!</article>
+                    <ul class="admin__list">
+                        <li class="head">
+                            <p>Код</p>
+                            <p>Категория</p>
+                            <p>Тип</p>
+                            <p>Наименование</p>
+                            <p>Стоимость</p>
+                            <p>Производитель</p>
+                            <p>Страна</p>
+                            <p>Гарантия</p>
+                            <p>Изображение</p>
+                            <p>Документ</p>
+                            <p></p>
+                        </li>
+                        <li>
+                            <p class="code__product">M24C02-WMN6TP</p>
+                            <p class="category__product">Микросхемы</p>
+                            <p class="type__product">Память</p>
+                            <p class="title__product">Интегральная микросхема памяти EEPROM SO8-150-1.27</p>
+                            <p class="price__product">14</p>
+                            <p class="fabricator__product">STMicroelectronics</p>
+                            <p class="country__product">Швейцария</p>
+                            <p class="garant__product">12</p>
+                            <p class="image_link__product">M24C02.png</p>
+                            <p class="document__product">M24C02.pdf</p>
+                            <p>
+                                <button class="del"><img src="assets/media/icons/trash.svg" alt="del"></button>
+                                <button class="update"><img src="assets/media/icons/edit.svg" alt="edit"></button>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
