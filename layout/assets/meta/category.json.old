@@ -1,0 +1,14 @@
+[
+    {
+        "id" : 1,
+        "title" : "Микросхемы",
+        "description" : "Описание длиное наверно",
+        "image_link" : "assets/media/temp/category/1.png"
+    },
+    {
+        "id" : 2,
+        "title" : "Микросхемы 2",
+        "description" : "Описание длиное наверно 2",
+        "image_link" : "assets/media/temp/category/2.png"
+    }
+]

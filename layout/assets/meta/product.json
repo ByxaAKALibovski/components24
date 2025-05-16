@@ -1,0 +1,67 @@
+[
+    {
+        "id" : 1,
+        "id_category": 1,
+        "id_type" : 1,
+        "title" : "Микроконвертер, 12-Bit ADC, 8-bit ADuC8xx 8052 CISC 8KB Flash 3.3V/5V",
+        "code" : "ADUC812BSZ",
+        "price" : "1760 ",
+        "country" : "США",
+        "garant" : "12",
+        "fabricator" : "Analog Devices",
+        "image_link" : "assets/media/temp/product/1.jpg",
+        "document_link" : "assets/meta/document/1.pdf"
+    },
+    {
+        "id" : 2,
+        "id_category": 1,
+        "id_type" : 1,
+        "title" : "Микроконтроллер, 32-Бит, Cortex-M4, 240МГц, 256K Flash, 96K SRAM, 51 I/O",
+        "code" : "AT32F403ARCT7",
+        "price" : "180",
+        "country" : "Китай",
+        "garant" : "20",
+        "fabricator" : "Artery",
+        "image_link" : "assets/media/temp/product/2.jpg",
+        "document_link" : "assets/meta/document/2.pdf"
+    },
+    {
+        "id" : 3,
+        "id_category": 1,
+        "id_type" : 2,
+        "title" : "Двунаправленный 8-ми разрядный шинный формирователь (без инверсии)",
+        "code" : "КР580ВА86",
+        "price" : "26",
+        "country" : "Россия",
+        "garant" : "20",
+        "fabricator" : "Россия",
+        "image_link" : "assets/media/temp/product/3.jpg",
+        "document_link" : "assets/meta/document/3.pdf"
+    },
+    {
+        "id" : 4,
+        "id_category": 1,
+        "id_type" : 3,
+        "title" : "16-бит АЦП, SAR, 100Квыборок/с",
+        "code" : "AD7680ARMZ",
+        "price" : "1280 ",
+        "country" : "Analog Devices",
+        "garant" : "20",
+        "fabricator" : "США",
+        "image_link" : "assets/media/temp/product/4.jpg",
+        "document_link" : "assets/meta/document/4.pdf"
+    },
+    {
+        "id" : 5,
+        "id_category": 1,
+        "id_type" : 4,
+        "title" : "Интегральная микросхема памяти EEPROM SO8-150-1.27",
+        "code" : "M24C02-WMN6TP",
+        "price" : "16",
+        "country" : "Швейцария",
+        "garant" : "12",
+        "fabricator" : "STMicroelectronics",
+        "image_link" : "assets/media/temp/product/5.jpg",
+        "document_link" : "assets/meta/document/5.pdf"
+    }
+]

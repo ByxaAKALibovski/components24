@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "id_category": 1,
+        "id_type" : 1,
+        "title" : "Интегральная микросхема памяти EEPROM SO8-150-1.27",
+        "code" : "M24C02-WMN6TP",
+        "price" : "14",
+        "country" : "Швейцария",
+        "garant" : "20",
+        "fabricator" : "STMicroelectronics",
+        "image_link" : "assets/media/temp/product/1.png",
+        "document_link" : "assets/meta/document/1.pdf"
+    },
+    {
+        "id" : 2,
+        "id_category": 1,
+        "id_type" : 2,
+        "title" : "Интегральная микросхема памяти EEPROM SO8-150-1.27 2",
+        "code" : "M24C02-WMN6TP 2",
+        "price" : "16",
+        "country" : "Швейцария",
+        "garant" : "12",
+        "fabricator" : "STMicroelectronics",
+        "image_link" : "assets/media/temp/product/2.png",
+        "document_link" : "assets/meta/document/2.pdf"
+    }
+]

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI testing</title>
+
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/ui.css">
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="email" class="custom__input" placeholder="E-Mail">
+    <input type="email" class="custom__input error" placeholder="E-Mail" value="test.test.tu">
+    <textarea name="decs" id="desc" class="custom__input" placeholder="Ваш вопрос"></textarea>
+
+    <label for="product_img" class="custom__input_file">
+        <input type="file" id="product_img" name="product_img">
+        <p>Прикрепите изображение <img src="assets/media/icons/clip.svg" alt=""></p>
+        <div class="img__preload"></div>
+    </label>
+    <div class="custom__select">
+        <select name="type_product" id="type_product">
+            <option value="">Выберите тип товара</option>
+            <option value="1">Чипы</option>
+            <option value="2">Контроллеры</option>
+            <option value="3">Микросхемы</option>
+        </select>
+    </div>
+
+    <a href="#" class="btn">Def button</a>
+    <a href="#" class="btn btn__big">Big button</a>
+    <a href="#" class="btn btn__big btn__border">Border big button</a>
+
+    <h2 class="main__title">Наш каталог</h2>
+    <p class="main__text">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="main__text"><span class="high__text">Lorem ipsum dolor sit.</span></p>
+
+    <li class="card info__card">
+        <img src="assets/media/image/why-us/catalog.png" alt="catalog">
+        <h3>Удобный каталог</h3>
+        <p>Искать нужные позиции в нашем каталоге просто и удобно. Все сгруппировано по разделам – заходите в нужный вам и выбирайте.</p>
+    </li>
+    <a href="#" class="card info__card">
+        <img src="assets/media/image/why-us/catalog.png" alt="catalog">
+        <h3>Удобный каталог</h3>
+    </a>
+    <li class="card text__card">
+        <h3>Адрес офиса и склада в Пензе</h3>
+        <p>улица Рябова, 7Д, Пенза, 440004</p>
+    </li>
+    <li class="card text__card">
+        <h3>Есть вопросы? Звоните нам:</h3>
+        <p>8 800 301-66-74</p>
+        <p>8-499-460-68-95 - телефон склада в Москве <br>
+            (для служб доставки и получения клиентами заказов со склада)</p>
+        <p>info2@komponenty24ru</p>
+    </li>
+
+    <a href="#" class="card product__card" data-favorit="false">
+        <span class="favorit__btn">
+            <svg width="20.000000" height="17.500000" viewBox="0 0 20 17.5" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                        Created with Pixso.
+                </desc>
+                <defs/>
+                <path id="Vector" d="M15 0C15 0 11.25 0 10 4.03C8.75 0 5 0 5 0C2.25 0 0 2.42 0 5.38C0 10.9 10 17.5 10 17.5C10 17.5 20 10.76 20 5.38C20 2.42 17.75 0 15 0Z" fill="#EFEFEF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+        </span>
+        <img src="assets/media/temp/product.png" alt="product">
+        <p class="brend">STMicroelectronics</p>
+        <h3 class="product__title">M24C02-WMN6TP</h3>
+        <p class="short__desc">Интегральная микросхема памяти EEPROM SO8-150-1.27</p>
+        <p class="price"><span>14</span> ₽/шт</p>
+        <div class="row">
+            <div class="counter__block">
+                <button class="counter__item decrement">-</button>
+                <input type="text" value="1" class="counter__input">
+                <button class="counter__item increment">+</button>
+            </div>
+            <button class="btn" data-target="add_product__basket">В корзину</button>
+        </div>
+    </a>
+    <a href="#" class="card product__card" data-favorit="true">
+        <span class="favorit__btn">
+            <svg width="20.000000" height="17.500000" viewBox="0 0 20 17.5" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                        Created with Pixso.
+                </desc>
+                <defs/>
+                <path id="Vector" d="M15 0C15 0 11.25 0 10 4.03C8.75 0 5 0 5 0C2.25 0 0 2.42 0 5.38C0 10.9 10 17.5 10 17.5C10 17.5 20 10.76 20 5.38C20 2.42 17.75 0 15 0Z" fill="#EFEFEF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+        </span>
+        <img src="assets/media/temp/product.png" alt="product">
+        <p class="brend">STMicroelectronics</p>
+        <h3 class="product__title">M24C02-WMN6TP</h3>
+        <p class="short__desc">Интегральная микросхема памяти EEPROM SO8-150-1.27</p>
+        <p class="price"><span>14</span> ₽/шт</p>
+        <div class="row">
+            <div class="counter__block">
+                <button class="counter__item decrement">-</button>
+                <input type="text" value="1" class="counter__input">
+                <button class="counter__item increment">+</button>
+            </div>
+            <button class="btn" data-target="add_product__basket">В корзину</button>
+        </div>
+    </a>
+    <a href="#" class="card category__card">
+        <h3>Микросхемы</h3>
+        <img src="assets/media/temp/category.png" alt="catergory">
+    </a>
+    <li href="#" class="card category__card_type">
+        <div class="row">
+            <img src="assets/media/temp/category.png" alt="catergory">
+            <div class="column">
+                <h2><a href="#">Микросхемы</a></h2>
+                <nav>
+                    <a href="#">Микроконтроллеры</a>
+                    <a href="#">Микропроцессорные схемы</a>
+                    <a href="#">Микросхемы АЦП</a>
+                    <a href="#">Микросхемы памяти</a>
+                    <a href="#">Микросхемы для телефонии</a>
+                </nav>
+            </div>
+        </div>
+    </li>
+    <a href="#" class="card blog__card">
+        <div class="row">
+            <img src="assets/media/temp/news.png" alt="blog">
+            <h2>Новые микроконтроллеры для IoT-устройств</h2>
+        </div>
+    </a>
+    <a href="#" class="card blog__card_text">
+        <h2>Новые микроконтроллеры для IoT-устройств</h2>
+        <p>В этом месяце несколько крупных производителей анонсировали новую серию микроконтроллеров, специально разработанных для приложений Интернета вещей (IoT). Эти микроконтроллеры обладают улучшенной энергоэффективностью и поддерживают беспроводные протоколы связи, такие как LoRa и Zigbee, что делает их идеальными для умных устройств и систем ...</p>
+    </a>
+
+    <div class="counter__block">
+        <button class="counter__item decrement">-</button>
+        <input type="text" value="1" class="counter__input">
+        <button class="counter__item increment">+</button>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
